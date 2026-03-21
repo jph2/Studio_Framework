@@ -8,6 +8,12 @@ trust_level: 3
 created: "2026-03-21T17:44:00Z"
 last_modified: "2026-03-21T18:26:48Z"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "60_Connectors/30_Secrets_Boundary/README_SEC.md"
 tags: [studio_framework, connectors, secrets_boundary]
 ---
 
@@ -18,6 +24,9 @@ tags: [studio_framework, connectors, secrets_boundary]
 **Last Updated:** 21.03.2026 19:26  
 **Framework:** Studio_Framework_Connectors  
 **Status:** active
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: 60_Connectors/30_Secrets_Boundary/README_SEC.md | Commit: pending
+
 
 **Tag block:**
 #studio_framework #connectors #secrets_boundary

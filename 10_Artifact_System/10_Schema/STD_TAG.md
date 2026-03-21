@@ -8,6 +8,12 @@ trust_level: 3
 created: "2026-03-21T18:31:01Z"
 last_modified: "2026-03-21T18:31:01Z"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "10_Artifact_System/10_Schema/STD_TAG.md"
 tags: [studio_framework, artifact_system, schema, tags, retrieval]
 ---
 
@@ -18,6 +24,9 @@ tags: [studio_framework, artifact_system, schema, tags, retrieval]
 **Last Updated:** 21.03.2026 19:31  
 **Framework:** Studio_Framework_Artifact_System  
 **Status:** active
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: 10_Artifact_System/10_Schema/STD_TAG.md | Commit: pending
+
 
 **Tag block:**
 #studio_framework #artifact_system #schema #tags #retrieval

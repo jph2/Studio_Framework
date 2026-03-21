@@ -8,6 +8,12 @@ trust_level: 3
 created: "2026-03-21T18:31:01Z"
 last_modified: "2026-03-21T18:31:01Z"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "10_Artifact_System/10_Schema/STD_ARY.md"
 tags: [studio_framework, artifact_system, schema, arys, documentation_standards]
 ---
 
@@ -18,6 +24,9 @@ tags: [studio_framework, artifact_system, schema, arys, documentation_standards]
 **Last Updated:** 21.03.2026 19:31  
 **Framework:** Studio_Framework_Artifact_System  
 **Status:** active
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: 10_Artifact_System/10_Schema/STD_ARY.md | Commit: pending
+
 
 **Tag block:**
 #studio_framework #artifact_system #schema #arys #documentation_standards
@@ -49,9 +58,25 @@ trust_level: 3
 created: "YYYY-MM-DDTHH:MM:SSZ"
 last_modified: "YYYY-MM-DDTHH:MM:SSZ"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "relative/path.md"
 tags: [tag1, tag2]
 ---
 ```
+
+## Provenance rule
+
+Git provenance belongs in ARYS as **traceability**, not as artifact identity.
+
+Meaning:
+- ARYS identity stays stable across versions of the same artifact
+- Git provenance records where that artifact lives in version control
+- `git_commit_*` may be `null`/pending during drafting
+- the path should still be filled because it is useful even before a clean commit snapshot exists
 
 ## Required visible metadata block
 
@@ -63,6 +88,8 @@ tags: [tag1, tag2]
 **Last Updated:** [DD.MM.YYYY HH:MM]  
 **Framework:** [Framework_Name]  
 **Status:** [Status Label]
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: relative/path.md | Commit: pending
 
 **Tag block:**
 #tag1 #tag2 #tag3

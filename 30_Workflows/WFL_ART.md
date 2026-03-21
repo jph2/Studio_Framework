@@ -8,6 +8,12 @@ trust_level: 3
 created: "2026-03-21T18:31:01Z"
 last_modified: "2026-03-21T18:31:01Z"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "30_Workflows/WFL_ART.md"
 tags: [studio_framework, workflows, artifact_system]
 ---
 
@@ -18,6 +24,9 @@ tags: [studio_framework, workflows, artifact_system]
 **Last Updated:** 21.03.2026 19:31  
 **Framework:** Studio_Framework_Workflows  
 **Status:** active
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: 30_Workflows/WFL_ART.md | Commit: pending
+
 
 **Tag block:**
 #studio_framework #workflows #artifact_system

@@ -8,6 +8,12 @@ trust_level: 3
 created: "2026-03-21T18:31:01Z"
 last_modified: "2026-03-21T18:31:01Z"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "40_Quality_System/CHK_DOC.md"
 tags: [studio_framework, quality_system, checklist, documentation_standards]
 ---
 
@@ -18,6 +24,9 @@ tags: [studio_framework, quality_system, checklist, documentation_standards]
 **Last Updated:** 21.03.2026 19:31  
 **Framework:** Studio_Framework_Quality_System  
 **Status:** active
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: 40_Quality_System/CHK_DOC.md | Commit: pending
+
 
 **Tag block:**
 #studio_framework #quality_system #checklist #documentation_standards

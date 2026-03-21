@@ -8,6 +8,12 @@ trust_level: 3
 created: "2026-03-21T17:44:00Z"
 last_modified: "2026-03-21T18:26:48Z"
 author: "TARS"
+provenance:
+  git_repo: "Studio_Framework"
+  git_branch: "main"
+  git_commit_short: null
+  git_commit_full: null
+  git_path: "70_Domain_Playbooks/40_Marketing_Content/README_MKT.md"
 tags: [studio_framework, domain_playbooks, marketing_content]
 ---
 
@@ -18,6 +24,9 @@ tags: [studio_framework, domain_playbooks, marketing_content]
 **Last Updated:** 21.03.2026 19:26  
 **Framework:** Studio_Framework_Domains  
 **Status:** active
+
+**Git:** Repo: Studio_Framework | Branch: main | Path: 70_Domain_Playbooks/40_Marketing_Content/README_MKT.md | Commit: pending
+
 
 **Tag block:**
 #studio_framework #domain_playbooks #marketing_content
