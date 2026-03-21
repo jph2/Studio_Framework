@@ -1,0 +1,41 @@
+---
+arys_schema_version: "1.2"
+id: "f680c33f-925a-4d04-93b6-7b248b49714f"
+title: "WFL_PRO — Project Promotion Workflow"
+type: WORKFLOW
+status: active
+trust_level: 3
+created: "2026-03-21T18:31:01Z"
+last_modified: "2026-03-21T18:31:01Z"
+author: "TARS"
+tags: [studio_framework, workflows, promotion, project_bridges]
+---
+
+# WFL_PRO — Project Promotion Workflow
+
+**Version**: 1.0.0 | **Date**: 21.03.2026 | **Time**: 19:31 | **GlobalID**: 20260321_1931_WFL_PRO_v1
+
+**Last Updated:** 21.03.2026 19:31  
+**Framework:** Studio_Framework_Workflows  
+**Status:** active
+
+**Tag block:**
+#studio_framework #workflows #promotion #project_bridges
+
+---
+
+## Purpose
+
+Defines when work leaves shared incubation and becomes a standalone project.
+
+## Promote when
+- stable core purpose exists
+- separate history matters
+- project lifecycle is real
+- shared placement is becoming messy
+- ownership/roadmap are clearer separately
+
+## Keep incubating when
+- still exploratory
+- tightly coupled to broader framework experimentation
+- separate repo would be premature

@@ -1,0 +1,32 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python / node / build noise
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.venv/
+venv/
+
+# Local env / secrets
+.env
+.env.*
+*.secret
+secrets/
+
+# Local machine/runtime config
+*.local.json
+*.local.yml
+*.local.yaml
+*.local.toml
+*.local.env
+
+# Archive clutter
+tmp/
+.cache/

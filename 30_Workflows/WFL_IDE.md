@@ -1,0 +1,47 @@
+---
+arys_schema_version: "1.2"
+id: "c894300c-da3c-4122-b2ba-6478cc721fa0"
+title: "WFL_IDE — IDE-Governed Artifact Workflow"
+type: WORKFLOW
+status: active
+trust_level: 3
+created: "2026-03-21T18:31:01Z"
+last_modified: "2026-03-21T18:31:01Z"
+author: "TARS"
+tags: [studio_framework, workflows, ide, artifact_system]
+---
+
+# WFL_IDE — IDE-Governed Artifact Workflow
+
+**Version**: 1.0.0 | **Date**: 21.03.2026 | **Time**: 19:31 | **GlobalID**: 20260321_1931_WFL_IDE_v1
+
+**Last Updated:** 21.03.2026 19:31  
+**Framework:** Studio_Framework_Workflows  
+**Status:** active
+
+**Tag block:**
+#studio_framework #workflows #ide #artifact_system
+
+---
+
+## Purpose
+
+Defines how artifact work should happen when the IDE is the hands-on editing surface.
+
+## Model
+- OpenClaw governs
+- IDE edits/refines
+- ACP/OpenShell execute where needed
+- repos hold project truth
+
+## Good fit for IDE work
+- Discovery
+- Research
+- Tutorial
+- Requirements
+- Specification
+- Implementation Plan
+- code/doc iteration
+
+## Rule
+The IDE remains first-class for direct manipulation, but system law stays above it.

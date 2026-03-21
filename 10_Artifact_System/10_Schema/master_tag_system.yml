@@ -1,0 +1,54 @@
+meta:
+  version: 0.1.0
+  last_updated: "2026-03-21T18:31:01Z"
+
+core:
+  artifact_tags:
+    - discovery
+    - research
+    - tutorial
+    - requirements
+    - specification
+    - implementation_plan
+    - checklist
+    - template
+    - workflow
+    - standard
+
+  system_tags:
+    - studio_framework
+    - artifact_system
+    - quality_system
+    - tool_surfaces
+    - connectors
+    - project_bridges
+    - reference_archive
+
+  surface_tags:
+    - ide
+    - cad_dcc
+    - browser_terminal
+    - acp
+    - mcp
+    - openshell
+
+  domain_tags:
+    - software
+    - usd_dcc
+    - product_design
+    - marketing_content
+
+  lifecycle_tags:
+    - schema
+    - templates
+    - workflows
+    - validation
+    - incubation
+    - promotion
+    - archive
+
+rules:
+  format: lowercase_with_underscores
+  min_per_document: 5
+  max_per_document: 20
+  one_tag_block_per_document: true
