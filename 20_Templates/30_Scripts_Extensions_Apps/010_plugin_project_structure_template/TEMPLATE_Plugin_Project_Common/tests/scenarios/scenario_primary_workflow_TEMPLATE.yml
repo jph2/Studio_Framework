@@ -1,0 +1,15 @@
+id: SCN-001
+objective: Validate primary workflow end-to-end behavior.
+inputs:
+  build: "[REPLACE_ME:BUILD_ARTIFACT_OR_PLUGIN_PATH]"
+  scene_or_source: "[REPLACE_ME:INPUT_FIXTURE]"
+  config: "[REPLACE_ME:CONFIG_FILE_OR_MODE]"
+steps:
+  - "[REPLACE_ME:STEP_1]"
+  - "[REPLACE_ME:STEP_2]"
+expected:
+  exit_status: 0
+  required_files:
+    - "[REPLACE_ME:OUTPUT_FILE_1]"
+  required_log_lines:
+    - "[REPLACE_ME:LOG_LINE_1]"

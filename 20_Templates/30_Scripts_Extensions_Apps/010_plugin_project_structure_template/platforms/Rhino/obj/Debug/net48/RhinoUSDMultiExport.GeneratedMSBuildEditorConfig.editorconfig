@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = RhinoUSDMultiExport
+build_property.ProjectDir = e:\SynologyDrive\9999_LocalRepo\General_Dev\General_Scripts_Extensions_Apps\030_SCR_TEMPLATES\010_plugin_project_structure_template\platforms\Rhino\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

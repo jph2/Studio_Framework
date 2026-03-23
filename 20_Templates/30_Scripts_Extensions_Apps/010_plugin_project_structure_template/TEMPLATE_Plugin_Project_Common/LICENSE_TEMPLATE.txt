@@ -1,0 +1,7 @@
+⚠️ TEMPLATE FILE — DO NOT SHIP AS-IS
+
+This is a LICENSE TEMPLATE.
+Replace this file with your real license text before publishing.
+
+[REPLACE_ME:PASTE_LICENSE_TEXT_HERE]
+
