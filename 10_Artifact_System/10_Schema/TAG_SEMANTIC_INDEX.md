@@ -1,0 +1,7509 @@
+---
+arys_schema_version: '1.2'
+id: c3289e95-18a1-4844-a8f6-f7e873df417f
+title: TAG_SEMANTIC_INDEX
+type: GOVERNANCE
+status: active
+trust_level: 3
+visibility: internal
+created: '2026-03-13T22:41:56Z'
+last_modified: '2026-03-13T22:41:56Z'
+---
+
+> [!NOTE]
+> Path references inside this file still reflect legacy source locations in places.
+> After Research, Tutorial, and Discovery artifact families are integrated into the new Studio Framework, this file must be remapped against the new Studio paths and structure.
+
+# TAG_SEMANTIC_INDEX
+
+**Version**: 1.1.1 | **Date**: 13.03.2026 | **Time**: 23:39 | **GlobalID**: 20260313_2339_MasterRules_TagSemanticIndex
+
+**Tag block:**
+#framework_integration #best_practices #reference #knowledge_graph #stable_knowledge_navigation #local_ai #ollama #cursor #cloud_models #provider_routing #rag #embeddings
+
+Purpose: Fast semantic routing index for Obsidian and agent lookup based on canonical hashtag usage.
+
+- Files scanned: `677`
+- Files with tag block: `657`
+- Unique tags indexed: `213`
+
+---
+
+## Quick-Lookup Aliases
+
+Common queries → canonical tag. Use these to find the right doc fast.
+
+| Query | Alias → Tag | Target Doc |
+|-------|-------------|------------|
+| monthly review | → #monthly_review | `AI_Ecosystem_Watch_Reference.md` |
+| AI ecosystem | → #ai_ecosystem | `AI_Ecosystem_Watch_Reference.md` |
+| cursor setup | → #cursor | `LOCAL_AI_README.md` |
+| ollama | → #ollama | `LOCAL_AI_README.md` |
+| local AI | → #local_ai | `LOCAL_AI_README.md` |
+| cloud models | → #cloud_models | `LOCAL_AI_README.md` |
+| opencode | → #opencode | `OpenCode_Setup_Integration.md` |
+| rules | → #cursor_rules | `soul.mdc` |
+| skills | → #cursor_skills | `SKILLS_INDEX.md` |
+| MCP | → #mcp_protocol | `OpenCode_MCP_Setup_Notes.md` |
+| model compute | → #model_compute | `Model_Compute_Strategy_DISCOVERY.md` |
+| framework docs | → #framework_integration | `AGENTS.md` |
+
+---
+
+## Recent Changes (Last 30 Days)
+
+| Date | Change | Doc |
+|------|--------|-----|
+| 2026-02-17 | Added cloud model baselines (MiniMax M2.5, Kimi K2.5, GLM-5, Big Pickle) | `LOCAL_AI_README.md` |
+| 2026-02-17 | Added Ollama+Cursor+OpenCode local AI runbook | `LOCAL_AI_README.md` |
+| 2026-02-14 | Created AI Ecosystem Watch Reference | `AI_Ecosystem_Watch_Reference.md` |
+| 2026-02-14 | Updated tag consolidation system | `TAG_SEMANTIC_INDEX.md` |
+
+---
+
+## Query Shortcuts
+
+Common intents → direct doc paths.
+
+| Intent | Doc Path |
+|--------|----------|
+| "how do I set up local AI?" | `Master_Rules/040_Framework_TOOLS/LOCAL_AI_README.md` |
+| "run monthly ecosystem check" | `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md` |
+| "what models should I use?" | `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md` |
+| "update cursor rules" | `General_Dev/.cursor/rules/soul.mdc` |
+| "add new skill" | `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md` |
+| "MCP server setup" | `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md` |
+| "framework architecture" | `Master_Rules/architecture_principles.md` |
+| "tag governance" | `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md` |
+| "search framework with AI" | `General_Dev/Master_Rules/040_Framework_TOOLS/framework_rag.py` |
+| "what do we have on X" | `Context_Index.md` |
+| "recent work" | `Context_Index.md` |
+
+### RAG Search Tool
+
+Natural language search over key framework docs.
+
+| Command | Purpose |
+|---------|---------|
+| `python General_Dev/Master_Rules/040_Framework_TOOLS/framework_rag.py --reindex` | Re-index all docs (run after major updates) |
+| `python General_Dev/Master_Rules/040_Framework_TOOLS/framework_rag.py "query"` | Natural language search |
+
+Indexed docs: LOCAL_AI_README, AI_Ecosystem_Watch, OpenCode MCP/Skills, TAG_SEMANTIC_INDEX, AGENTS, SKILLS_INDEX, Model_Compute_Strategy.
+
+---
+
+## Tag Directory
+
+### #2d_spanning_tree (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+
+### #aas_integration (31)
+
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #act (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+
+### #actiongraph (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+
+### #advanced (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/LIMITATIONS.md`
+
+### #agent_orchestration (15)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+
+### #ai_assisted_development (58)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+
+### #ai_coding_agents (56)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+
+### #analysis (566)
+
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Backend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Backend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Backend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Backend_Guardrails/local_log.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/environment_documentation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/patterns/email_form_setup.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/failures_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/solutions_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/local_log.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SECURITY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G003_Template_Inheritance_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/README.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/010_Framework_GUIDES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/020_Framework_AGENTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/030_Framework_TEMPLATES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/040_Framework_TOOLS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/060_Framework_HANDOVERS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/070_Framework_DOCS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/090_Framework_TESTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/100_Framework_EXAMPLES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/local_log_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/030_Framework_TEMPLATES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/guide_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/local_log_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/README.md`
+- `Master_Rules/040_Framework_TOOLS/TIMESTAMP_MANAGEMENT_README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/violations_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A005_Directory_Rename_Preparation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A014_Phase_3_1_Template_System_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A016_Post_Cleanup_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A019_Phase_1_Generate_Everything_First_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A020_Quality_Assessment_Framework_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A021_Phase_2_Quality_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A023_Phase_10_Complete_Repository_Structure_Optimization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Architecture_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A028_Framework_Implementation_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A030_Framework_Guides_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/markdown_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/mermaid_charts.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/results_output_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/universal_patterns.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+- `Master_Rules/local_log.md`
+- `Master_Rules/temp_performance_test.md`
+
+### #animation (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+
+### #aousd (2)
+
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+
+### #api_integration (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+
+### #architecture (14)
+
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+
+### #art (16)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+
+### #asset_resolver (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+
+### #attribute (2)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+
+### #audit_readiness (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+
+### #automation (99)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+
+### #automotive (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+
+### #beads (2)
+
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+
+### #beginner (5)
+
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+
+### #best_practices (613)
+
+- `00_Knowledge_Index.md`
+- `AGENTS.md`
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Backend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Backend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Backend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Backend_Guardrails/local_log.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/environment_documentation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/patterns/email_form_setup.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/failures_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/solutions_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/local_log.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SECURITY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G003_Template_Inheritance_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/README.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/010_Framework_GUIDES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/020_Framework_AGENTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/030_Framework_TEMPLATES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/040_Framework_TOOLS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/060_Framework_HANDOVERS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/070_Framework_DOCS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/090_Framework_TESTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/100_Framework_EXAMPLES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/local_log_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/030_Framework_TEMPLATES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/guide_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/local_log_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/README.md`
+- `Master_Rules/040_Framework_TOOLS/TIMESTAMP_MANAGEMENT_README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/violations_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A005_Directory_Rename_Preparation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A014_Phase_3_1_Template_System_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A016_Post_Cleanup_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A019_Phase_1_Generate_Everything_First_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A020_Quality_Assessment_Framework_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A021_Phase_2_Quality_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A023_Phase_10_Complete_Repository_Structure_Optimization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Architecture_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A028_Framework_Implementation_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A030_Framework_Guides_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/markdown_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/mermaid_charts.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/results_output_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/universal_patterns.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+- `Master_Rules/local_log.md`
+- `Master_Rules/temp_performance_test.md`
+- `local_log.md`
+
+### #blender (23)
+
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+
+### #branding (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+
+### #brev (5)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+
+### #bsfz_certification (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+
+### #c4d (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+
+### #camera (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+
+### #camera_management (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+
+### #capture (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+
+### #case_study (250)
+
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SECURITY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #catena_x (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+
+### #catia (12)
+
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+
+### #ci_cd (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+
+### #circular_economy (5)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+
+### #claude_code (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+
+### #claude_flow (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+
+### #cleanup (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+
+### #cloud_storage (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+
+### #collections (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+
+### #comfyui (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+
+### #command_line (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+
+### #composable_bindings (1)
+
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+
+### #compositing (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+
+### #composition (25)
+
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/LIMITATIONS.md`
+
+### #consolidation (3)
+
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+
+### #construction (2)
+
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+
+### #context_engineering (1)
+
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+
+### #context_window (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+
+### #conversion (180)
+
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+
+### #creative (9)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+
+### #crm (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+
+### #cursor (16)
+
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+
+### #data_provenance (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+
+### #debugging (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #decide (2)
+
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+
+### #deterministic_workflows (330)
+
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SECURITY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #digital_twin (67)
+
+- `Domain_OmniUSD_Guardrails/README.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #digital_twin_creation (66)
+
+- `Domain_OmniUSD_Guardrails/README.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #digitaltwin (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+
+### #directrl (18)
+
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+
+### #distribution (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+
+### #eclass (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+
+### #education (7)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/local_log.md`
+
+### #enterprise_software (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+
+### #etl (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+
+### #event_driven_architecture (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+
+### #evidence_chain (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+
+### #expert (5)
+
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+
+### #export (41)
+
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+
+### #extension_development (98)
+
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+
+### #extensionui (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+
+### #fhir (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+
+### #file_processing (2)
+
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+
+### #framework_integration (522)
+
+- `00_Knowledge_Index.md`
+- `AGENTS.md`
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Backend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Backend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Backend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Backend_Guardrails/local_log.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/environment_documentation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/patterns/email_form_setup.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/failures_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/solutions_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/local_log.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/SECURITY.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/README.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G003_Template_Inheritance_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/README.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/010_Framework_GUIDES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/020_Framework_AGENTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/030_Framework_TEMPLATES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/040_Framework_TOOLS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/060_Framework_HANDOVERS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/070_Framework_DOCS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/090_Framework_TESTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/100_Framework_EXAMPLES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/local_log_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/030_Framework_TEMPLATES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/guide_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/local_log_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/README.md`
+- `Master_Rules/040_Framework_TOOLS/TIMESTAMP_MANAGEMENT_README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/violations_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A005_Directory_Rename_Preparation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A014_Phase_3_1_Template_System_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A016_Post_Cleanup_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A019_Phase_1_Generate_Everything_First_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A020_Quality_Assessment_Framework_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A021_Phase_2_Quality_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A023_Phase_10_Complete_Repository_Structure_Optimization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Architecture_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A028_Framework_Implementation_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A030_Framework_Guides_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/markdown_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/mermaid_charts.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/results_output_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/universal_patterns.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+- `Master_Rules/local_log.md`
+- `Master_Rules/temp_performance_test.md`
+- `local_log.md`
+
+### #gaming (5)
+
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+
+### #gaussian_splatting (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+
+### #generative_ai (1)
+
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+
+### #geometry (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+
+### #governance (13)
+
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+
+### #grasshopper (5)
+
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+
+### #healthcare (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+
+### #hybrid (37)
+
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+
+### #ide (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+
+### #iiot (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+
+### #import (7)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+
+### #industrial_integration (52)
+
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+
+### #inheritance (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+
+### #inside_omniverse (14)
+
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+
+### #instancing (2)
+
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+
+### #integration_pattern (94)
+
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+
+### #integration_tests (3)
+
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+
+### #interactive_input (1)
+
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+
+### #intermediate (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+
+### #isaac_sim (39)
+
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #isaaclab (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #isaacsim (2)
+
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #joints (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+
+### #knowledge_graph (39)
+
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #layer (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+
+### #layered_architecture (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+
+### #local_ai (1)
+
+- `Master_Rules/040_Framework_TOOLS/LOCAL_AI_README.md`
+
+### #rag (1)
+
+- `General_Dev/Master_Rules/040_Framework_TOOLS/framework_rag.py`
+
+### #layers (25)
+
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+
+### #lazyloading (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+
+### #lidar (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #list_operations (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+
+### #listops (1)
+
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+
+### #livrps (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+
+### #lod (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+
+### #machine_learning (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+
+### #machinery (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+
+### #manufacturing (14)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+
+### #material (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+
+### #materiallibrary (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+
+### #materials (17)
+
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #materialx (12)
+
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #mcp_protocol (44)
+
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+
+### #memex (29)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+
+### #memory_systems (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+
+### #mes (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #modules (5)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+
+### #multi_agent_systems (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+
+### #new_technologies (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+
+### #ogc (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+
+### #ollama (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+
+### #omniverse (177)
+
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #omniverse_nucleus (33)
+
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/README.md`
+
+### #opc_ua (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+
+### #open_source (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+
+### #openclaw (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+
+### #opencode (1)
+
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+
+### #openusd (317)
+
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+- `Master_Rules/local_log.md`
+- `Master_Rules/temp_performance_test.md`
+
+### #operational_twin (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Tutorials/local_log.md`
+
+### #opinions (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+
+### #optimization (91)
+
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/temp_performance_test.md`
+
+### #outside_omniverse (15)
+
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+
+### #over_engineering (4)
+
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+
+### #packaging (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+
+### #payload (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+
+### #payloads (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+
+### #performance (86)
+
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/temp_performance_test.md`
+
+### #performance_benchmark (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+
+### #performanceoptimization (4)
+
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+
+### #physical_ai (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+
+### #physics (2)
+
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+
+### #pipeline (8)
+
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+
+### #plant_simulation (8)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+
+### #post_production (5)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/README.md`
+
+### #prim (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+
+### #primpath (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+
+### #prims (28)
+
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+
+### #projectstructure (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+
+### #property (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+
+### #prototype (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+
+### #pushgraph (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+
+### #python_standard (1)
+
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+
+### #quality_assurance (386)
+
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Backend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Backend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Backend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Backend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Backend_Guardrails/local_log.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/environment_documentation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/patterns/email_form_setup.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/failures_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/solutions_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/local_log.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/SECURITY.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G003_Template_Inheritance_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/010_Framework_GUIDES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/020_Framework_AGENTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/030_Framework_TEMPLATES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/040_Framework_TOOLS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/060_Framework_HANDOVERS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/070_Framework_DOCS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/090_Framework_TESTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/100_Framework_EXAMPLES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/local_log_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/030_Framework_TEMPLATES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/guide_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/local_log_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/README.md`
+- `Master_Rules/040_Framework_TOOLS/TIMESTAMP_MANAGEMENT_README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/violations_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A005_Directory_Rename_Preparation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A014_Phase_3_1_Template_System_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A016_Post_Cleanup_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A019_Phase_1_Generate_Everything_First_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A020_Quality_Assessment_Framework_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A021_Phase_2_Quality_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A023_Phase_10_Complete_Repository_Structure_Optimization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Architecture_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A028_Framework_Implementation_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A030_Framework_Guides_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/markdown_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/mermaid_charts.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/results_output_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/universal_patterns.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/README.md`
+- `Master_Rules/local_log.md`
+
+### #quantum_computing (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+
+### #r_and_d_tax_credit (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+
+### #raycastercfg (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #reference (21)
+
+- `00_Knowledge_Index.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #references (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/LIMITATIONS.md`
+
+### #relationship (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+
+### #rendering (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+
+### #rhino (23)
+
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+
+### #risk_assessment (24)
+
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Tutorials/LIMITATIONS.md`
+
+### #robotics (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+
+### #scada (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+
+### #scalable (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+
+### #schema (2)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+
+### #schemas (7)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+
+### #second_brain_system (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+
+### #semantic_governance (25)
+
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #semantic_id (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+
+### #semantic_integration (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+
+### #sequencer (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+
+### #simulation (6)
+
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+
+### #skills (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+
+### #sme (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+
+### #sme_status (5)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+
+### #specialization (1)
+
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+
+### #specializes (1)
+
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+
+### #sphinx (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+
+### #stable_knowledge_navigation (11)
+
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+
+### #stage (15)
+
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/local_log.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+
+### #standalone (22)
+
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_02_Research_Analysis.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_03_Requirements_Engineering.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_04_Implementation_Planning.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+
+### #streaming (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+
+### #swarm_intelligence (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+
+### #systematic_r_and_d_method (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+
+### #technical_uncertainty (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+
+### #troubleshooting (6)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+
+### #universal_scene_description (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+
+### #usd (4)
+
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+
+### #usd_core (316)
+
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_OmniUSD_Guardrails/.cursor/mcp_workspace_config.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/AGENTS_OmniUSD.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Research_Strategic_Findings_light_template.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/architecture.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/LiDAR_Ray_Detection_Issue_in_IsaacLab__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Explain_LIVRPS_like_Im_Five__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1111_NVIDA_Github_LearningSpace_Setup.md`
+- `General_Tutorials/ECOSYSTEM_SETUP_COMPLETE_GUIDE.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/QUICK_INTEGRATION_REFERENCE.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/MCP_PROFILE_Lean.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/080_Framework_RULES/architecture_principles.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_23_3D_File_Visualization.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+- `Master_Rules/local_log.md`
+- `Master_Rules/temp_performance_test.md`
+
+### #usd_start_point (8)
+
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+
+### #usda (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+
+### #usdc (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+
+### #usdgeom (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+
+### #usdphysics (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+
+### #v_model (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+
+### #validation (307)
+
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Backend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Backend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Backend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Backend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Backend_Guardrails/local_log.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/environment_documentation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/patterns/email_form_setup.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/failures_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/solutions_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/local_log.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Requirements_Engineering_template.md`
+- `General_Research/030_Proj_TEMPLATES/Research_3D_ConversionPipeline_Evaluation_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/040_Proj_TOOLS/README.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Working_With_Prims_and_Default_Schemas__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/G003_Template_Inheritance_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/010_Framework_GUIDES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/020_Framework_AGENTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/030_Framework_TEMPLATES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/040_Framework_TOOLS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/060_Framework_HANDOVERS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/070_Framework_DOCS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/090_Framework_TESTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/100_Framework_EXAMPLES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/local_log_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/guide_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/local_log_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/guide_template.md`
+- `Master_Rules/040_Framework_TOOLS/README.md`
+- `Master_Rules/040_Framework_TOOLS/TIMESTAMP_MANAGEMENT_README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/violations_detailed.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A005_Directory_Rename_Preparation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A014_Phase_3_1_Template_System_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A016_Post_Cleanup_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A019_Phase_1_Generate_Everything_First_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A020_Quality_Assessment_Framework_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A021_Phase_2_Quality_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A023_Phase_10_Complete_Repository_Structure_Optimization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Architecture_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A028_Framework_Implementation_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A030_Framework_Guides_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/markdown_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/mermaid_charts.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/results_output_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/universal_patterns.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_1_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/README.md`
+- `Master_Rules/local_log.md`
+
+### #variant (3)
+
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+
+### #variant_control (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+
+### #variants (11)
+
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+
+### #variantset (1)
+
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+
+### #version_control (4)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+
+### #vibe_coding (1)
+
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_Setup_Integration.md`
+
+### #vscode (5)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution_SUMMARY.md`
+
+### #walrus (2)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+
+### #web_rtc (3)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+
+### #websocket_api (14)
+
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+
+### #work_package_planning (1)
+
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+
+### #workflow_automation (610)
+
+- `Domain_Blender_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Blender_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Blender_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Blender_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Blender_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Blender.md`
+- `Domain_Blender_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Blender_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Blender_Guardrails/080_Framework_RULES/best_practices/blender_domain_crucial_resources.md`
+- `Domain_Blender_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Blender_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Blender_Guardrails/AGENTS_Blender.md`
+- `Domain_Blender_Guardrails/README.md`
+- `Domain_Blender_Guardrails/local_log.md`
+- `Domain_OmniUSD_Guardrails/.pytest_cache/README.md`
+- `Domain_OmniUSD_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/TEMPLATE_INHERITANCE_GUIDE.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/guide_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/handover_openusd_template.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/prim_schema_templates.md`
+- `Domain_OmniUSD_Guardrails/030_Framework_TEMPLATES/openusd_templates/usd_development_workflow.md`
+- `Domain_OmniUSD_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_USD.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/aousd_core_spec_1.0.1_2025-12-12.lean.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/INDEX.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/ar2.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/asset_previews.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/connectable_nodes.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/coordsys.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/proposals_index.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/render_settings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/rigid_body_physics.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/schema_versioning.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/stage_variables.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdaudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_geometry_lights.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdlux_for_renderers.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/proposals/usdshade.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/BoundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/CylinderLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DiskLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DistantLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/DomeLight_1.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/GeometryLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/LightListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ListAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/MeshLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/NonboundableLightBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PluginLightFilter.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/PortalLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/RectLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShadowAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/ShapingAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/SphereLight.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/VolumeLightAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdLux/usdLux_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/AssetPreviewsAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/SpatialAudio.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdMedia/usdMedia_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderPass.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderProduct.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettings.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderSettingsBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/RenderVar.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdRender/usdRender_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AccessibilityAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/AttributeHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/Backdrop.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/NodeGraphNodeAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/ObjectHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PrimHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/PropertyHints.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/SceneGraphPrimAPI.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdUI/usdUI_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Field3DAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/FieldBase.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/OpenVDBAsset.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/Volume.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/overview.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/schemas/usdVol/usdVol_toc.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/openusd_reference/user_guides/variable_expressions.md`
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/README.md`
+- `Domain_OmniUSD_Guardrails/080_Framework_RULES/best_practices/omniusd_domain_crucial_resources.md`
+- `Domain_OmniUSD_Guardrails/OmniUSD_overview.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_OmniUSD_Guardrails/blender_usd_geometry_reference/docs/PROJECT_COMPARISON.md`
+- `Domain_OmniUSD_Guardrails/local_log.md`
+- `Domain_Rhino_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_Rhino_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_Rhino_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_Rhino_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Rhino.md`
+- `Domain_Rhino_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_Rhino_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_Rhino_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/best_practices/rhino_domain_crucial_resources.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/core/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/experimental/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/projects/README.md`
+- `Domain_Rhino_Guardrails/080_Framework_RULES/workflows/README.md`
+- `Domain_Rhino_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_Rhino_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_Rhino_Guardrails/AGENTS_Rhino.md`
+- `Domain_Rhino_Guardrails/README.md`
+- `Domain_Rhino_Guardrails/local_log.md`
+- `Domain_WebDev_Backend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Backend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Backend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Backend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Backend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Backend_Guardrails/080_Framework_RULES/best_practices/webdev_backend_domain_crucial_resources.md`
+- `Domain_WebDev_Backend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Backend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Backend_Guardrails/AGENTS_WebDev_Backend.md`
+- `Domain_WebDev_Backend_Guardrails/README.md`
+- `Domain_WebDev_Backend_Guardrails/local_log.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G105_Deployment_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/020_Framework_AGENTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/feature_implementation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/040_Framework_TOOLS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/MCP_PROFILE_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/050_Framework_MCP_PROFILES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/060_Framework_HANDOVERS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/environment_documentation_template.md`
+- `Domain_WebDev_Frontend_Guardrails/070_Framework_DOCS/patterns/email_form_setup.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/failures_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/solutions_log.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/best_practices/webdev_frontend_domain_crucial_resources.md`
+- `Domain_WebDev_Frontend_Guardrails/080_Framework_RULES/documentation/README.md`
+- `Domain_WebDev_Frontend_Guardrails/090_Framework_TESTS/README.md`
+- `Domain_WebDev_Frontend_Guardrails/100_Framework_EXAMPLES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `Domain_WebDev_Frontend_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/local_log.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_WhatWeDid_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Implementation_Planning_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_SYNC_QUICK_REFERENCE.md`
+- `General_Research/030_Proj_TEMPLATES/TOPIC_TO_TAG_MAPPING.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Circular_Economy_Botrop_Indicators_DPP_Demonstrators_RESEARCH_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/INBOX_External_Ideation.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_EXTERNAL_STRATEGIC_GUIDANCE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Terminal_Command_Line_HowTo.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Job_Interview_Cheat_Sheet_Circular_Economy_Botrop_DE.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/bb_temp/AI execution.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/JanH_/TritonDigital_MartinMittelmann.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/attributes_usage_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_import.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SECURITY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/README_SCR_Scripts_Incubator.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G007_Implementation_Planning_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G008_Plugin_Project_Bootstrap_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_PLAN.md`
+- `General_Scripts_Extensions_Apps/020_Proj_AGENTS/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/README__ABOUT_TEMPLATE/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/01_Requirements_Questionnaire_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02A_Requirements_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/02_Detailed_Requirements_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/03_Module_Design_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04A_Implementation_Plan_Phase1_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/04_Implementation_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/05_Testing_Plan_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/06_TROUBLESHOOTING_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/09_Roadmap_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/10_USER_GUIDE_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/11_BUILD_INSTRUCTIONS_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/80_WIP_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_SESSION_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/99_HANDOFF_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/OUTPUT_FOLDER_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/docs/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/tests/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/plugin_project_structure_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/README.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/implementation_plan_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/templates/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/BEST_PRACTICES.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/docs/PROPOSAL.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/extension/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/newExtension/omniverse_mcp_server/mcp_server/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/00_Extensions/openPBRbase_material_Creator/TESTING_GUIDE.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/USD_GoodStart_ComfyUI_nodes_README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/examples/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/materials/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/INITIAL_IDEAS.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/mtlx_OpenPBRusd_converter/PLAN.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/testing/Cube_generator_PROMPT.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/README.md`
+- `General_Scripts_Extensions_Apps/040_Proj_TOOLS/variants/Variant_Creator_Script_Requirement.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/README.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/MaterialX_SimReady_Requirements_Check.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_documentation_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_MCP_PROFILES/MCP_PROFILE_Scripts.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/Extension Template.md`
+- `General_Scripts_Extensions_Apps/070_Proj_EXAMPLES/README.md`
+- `General_Scripts_Extensions_Apps/080_Proj_RULES/README.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/NVIDIA_LEARNINGS_ANALYSIS.md`
+- `General_Scripts_Extensions_Apps/090_Proj_BEST_PRACTICES/best_practise_Blender_Extensions_addons/building_for_Blender.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Scripts_Extensions_Apps/CHANGELOG.md`
+- `General_Scripts_Extensions_Apps/CONTRIBUTING.md`
+- `General_Scripts_Extensions_Apps/README.md`
+- `General_Scripts_Extensions_Apps/SECURITY.md`
+- `General_Scripts_Extensions_Apps/local_log.md`
+- `General_Tutorials/000_README.md`
+- `General_Tutorials/010_Proj_GUIDES/G001_General_Tutorials_Project_Guide.md`
+- `General_Tutorials/020_Proj_AGENTS/README.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/050_Proj_MCP_PROFILES/MCP_PROFILE_Tutorials.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Clone+Build_Omniverse_with_KIT_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ConveyorBelts_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/ETL in OPenUSD__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/001_to_be_Released/Setting up CURSOR as default Omniverse IDE_TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/00_Global_LinkList_Annotaed.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/00_Global_Glossary.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Two_Worlds_of_OpenUSD_and_How_to_Walk_the_Bridge__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Understanding_Omniverse_and_USD_with_Robotics_Digital_Twins__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/010_Foundations Orientation Core USD Concepts/Why_USD_and_Omniverse_Nucleus_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Data_Preparation_Best_Practices__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Scope_vs_XformCommonAPI__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/Specifiers_in_Practice__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/020_Project Setup Structure Naming  Data Preparation/USD_Project_Structure_and_File_Organization__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Introduction_to_Strength_Ordering_LIVRPS01__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/LIVRPS_Debugging_with_IDE_LIVRPS03__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/USD_Layers_and_Variants_LIVRPS02__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Understanding_Model_Kinds__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/030_Composition LIVRPS Layers Variants Debugging/Using_Attributes__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Lights_and_Rendering_Basics__TUTORIAL_WIP.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/Stage_Traversal__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Attributes_and_Relationships__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/040_Authoring & Scene Management/USD_Module_Hierarchy_and_API_Structure__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Setting_up_Basic_Animations__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/050_Animation & Temporal Data/Variant_Sets_with_Nested_Animations_ActionScript__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Instancing_Reducing_Memory_Footprint_for_Performance__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Isaac_Sim_Asset_Integration__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/Omniverse_Process_and_Tool_Variants__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/060_Optimization & Advanced Workflows/USD_Tips_and_Tricks__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/070_Industry Applications & Extensions/OpenUSD_Omniverse_Data_Integration_Playbook__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/080_Special Perspectives & Fun/Teach_Me_USD_with_Only_Cooking_Metaphors__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/090_Roadmap & Certification/USD_Practice_Exam_for_Certification__TUTORIAL.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/1000_Learning_Path.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07L_List of Tools and Programs to inspect USD files.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07M_Omniverse Launch arguments.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/070_Proj_TUTORIALS/INNOACTIVE/Innoactive Tutorials TODO_250813.md`
+- `General_Tutorials/080_Proj_RULES/README.md`
+- `General_Tutorials/AGENTS_Tutorials.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G001_Framework_Architecture_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G002_Context_Window_Management_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G003_Template_Inheritance_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G005_Content_Review_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/Obsidian_QuickStart.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/010_Framework_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/README.md`
+- `Master_Rules/020_Framework_AGENTS/MCP_TOOL_USAGE_GUIDES/usdcode_nim_tool_usage.md`
+- `Master_Rules/020_Framework_AGENTS/README.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/010_Framework_GUIDES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/020_Framework_AGENTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/030_Framework_TEMPLATES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/040_Framework_TOOLS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/050_Framework_MCP_PROFILES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/060_Framework_HANDOVERS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/070_Framework_DOCS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/best_practices/[DOMAIN]_domain_crucial_resources_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/core/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/experimental/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/projects/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/080_Framework_RULES/workflows/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/090_Framework_TESTS/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/100_Framework_EXAMPLES/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/README_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/010_domain_structure_template/TEMPLATE_Domain_Common/local_log_TEMPLATE.md`
+- `Master_Rules/030_Framework_TEMPLATES/Domain_Standardization_Checklist.md`
+- `Master_Rules/030_Framework_TEMPLATES/README.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_consolidation_instructions.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_implementation_plan_guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/domain_routing_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/guide_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/handover_base_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/framework_templates/local_log_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/guide_template.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/README.md`
+- `Master_Rules/040_Framework_TOOLS/TIMESTAMP_MANAGEMENT_README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/docs/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/fixtures/scenarios/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/metrics/README.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/health_dashboard.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/performance_analysis.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/test_analysis_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/framework_test_harness/reports/violations_detailed.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/050_Framework_MCP_PROFILES/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A003_Context_Management_Test_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A004_Lean_Workspace_Validation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A005_Directory_Rename_Preparation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A007_Framework_Implementation_Comprehensive_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A008_Framework_Structure_Analysis_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A009_Phase_2_2_Complete_Environment_Audit_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A014_Phase_3_1_Template_System_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A016_Post_Cleanup_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A017_Template_Inheritance_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A018_Framework_Integration_Test_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A019_Phase_1_Generate_Everything_First_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A020_Quality_Assessment_Framework_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A021_Phase_2_Quality_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Framework_Rebranding_OV_Dev_to_General_Dev_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A022_Phase_8_3_Validation_REPORT.md`
+- `Master_Rules/060_Framework_HANDOVERS/A023_Phase_10_Complete_Repository_Structure_Optimization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Architecture_Reorganization_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Check.md`
+- `Master_Rules/060_Framework_HANDOVERS/A024_Phase_11_Structure_Integrity_Report.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Domain_Guardrails_Standardization_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A025_Framework_Tools_Update_and_Diagram_Improvements_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A028_Framework_Implementation_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Framework_System_Test_Implementation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A029_Phase_15_Framework_Correction_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A030_Framework_Guides_Completion_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A033_Tags_Keywords_Clarification_Updates_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A034_Link_Preservation_Evidence_Sources_and_Model_Selection_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A038_Domain_Template_Creation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/README.md`
+- `Master_Rules/080_Framework_RULES/README.md`
+- `Master_Rules/080_Framework_RULES/documentation/AI_Ecosystem_Watch_Reference.md`
+- `Master_Rules/080_Framework_RULES/documentation/OpenCode_MCP_Setup_Notes.md`
+- `Master_Rules/080_Framework_RULES/documentation/archive_lifecycle_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/code_quality_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/external_ideation_ingress_standard.md`
+- `Master_Rules/080_Framework_RULES/documentation/markdown_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/mermaid_charts.md`
+- `Master_Rules/080_Framework_RULES/documentation/opencode_github_desktop_workflow.md`
+- `Master_Rules/080_Framework_RULES/documentation/process_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/results_output_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/software_testing_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/template_standards.md`
+- `Master_Rules/080_Framework_RULES/documentation/universal_patterns.md`
+- `Master_Rules/080_Framework_RULES/documentation/usd_multiexport_uix_pattern.md`
+- `Master_Rules/085_Framework_Development/G000_Framework_implementation_plan_GUIDE.md`
+- `Master_Rules/085_Framework_Development/Phase_17.01_Document_Structure_Standardization_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Backend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Blender_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_18_Frontend_Domain_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_2_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_3_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_19_MVP_Obsidian_QuickWin.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_20_Web_Frontend_Implementation.md`
+- `Master_Rules/085_Framework_Development/Phase_21_22_Advanced_Framework_Enhancements.md`
+- `Master_Rules/085_Framework_Development/Phase_25_Commercial_Interfaces.md`
+- `Master_Rules/085_Framework_Development/Phase_26_RAG_System.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_30_Standalone_App_Concept.md`
+- `Master_Rules/085_Framework_Development/Phase_35_Memex_Evolution.md`
+- `Master_Rules/085_Framework_Development/README.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/085_Framework_Development/templates/implementation_plan_template.md`
+- `Master_Rules/085_Framework_Development/templates/requirements_template.md`
+- `Master_Rules/AGENTS.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/README.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+- `Master_Rules/local_log.md`
+- `Master_Rules/temp_performance_test.md`
+
+### #workflow_optimization (247)
+
+- `Domain_OmniUSD_Guardrails/070_Framework_DOCS/repository_structure_standardization.md`
+- `Domain_OmniUSD_Guardrails/README.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G101_Development_Principles_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G102_Pre_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G103_Requirements_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/G104_Environment_Discovery_GUIDE.md`
+- `Domain_WebDev_Frontend_Guardrails/010_Framework_GUIDES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/README.md`
+- `Domain_WebDev_Frontend_Guardrails/030_Framework_TEMPLATES/requirements_results_template.md`
+- `Domain_WebDev_Frontend_Guardrails/AGENTS_WebDev_Frontend.md`
+- `Domain_WebDev_Frontend_Guardrails/Guardrails_WebDev_Transfer_Analysis.md`
+- `General_Research/010_Proj_GUIDES/G001_General_Research_Project_Guide.md`
+- `General_Research/020_Proj_AGENTS/README.md`
+- `General_Research/030_Proj_TEMPLATES/CHANGELOG.md`
+- `General_Research/030_Proj_TEMPLATES/Documentation_HowTo_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/External_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/FILES_NEEDING_TAGGING.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Decision_Support_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Research_Analysis_template.md`
+- `General_Research/030_Proj_TEMPLATES/Internal_Strategic_Guidance_template.md`
+- `General_Research/030_Proj_TEMPLATES/README.md`
+- `General_Research/030_Proj_TEMPLATES/TAG_GOVERNANCE_AUDIT_20260216.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/Holistic_Research_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/OmniConnector_architecture_overview_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template what we did.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/documentation_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/finding_template.md`
+- `General_Research/030_Proj_TEMPLATES/legacy/research_template.md`
+- `General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md`
+- `General_Research/050_Proj_MCP_PROFILES/MCP_PROFILE_Research.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Catia_3DXMLto DIGITAL TWIN_TUTORIAL.md`
+- `General_Research/070_Proj_RESEARCH/005_NETURAL/Validation_Simulation_OMNIVERSE_RESEARCH_RESULT.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Breakout_ETL in OPenUSD__DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_CATIA_SiemensPlantSimulation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/3DX_Catia_3DXMLto DIGITAL TWIN_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AAC_Asset Administration Shell and OpenUSD_DISCOVERY.MD`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AI_coding_ColeMedin_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Ecosystem_Tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Agent_Rules_Update_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/COMPLIANCE_NOTES.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/IP_Rights_Asset_Resolver_Best_Practices.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/AssetResolver_IPRights/README.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Blender_USD_FAKE_References_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Branding_OpenGoodStart_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/C4D to USD pipeline_What We Did.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/CAD_mesher_Ngons_MOI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Catena-X__RESEARCH_EXTENDED.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Claude_Flow_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Codex CLI Integration for USD Workflows_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Cursor_withLocal_AI_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/DigitalTwin_IOT_Begriffsliste.DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ETL (Extract, Transform, Load) in OpenUSD_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/European_OSS_CRM_01_Repositories_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Forschungszulage_Einzelunternehmer_DevFramework_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Gaussian Splatting Workflows_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/General AI-AGENT Framework Architecture_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/How to Update OMNIVERSE to new Version_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/IHEP_digital_twin_discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED Dome_Mukaab_OMNIVERSE_DISCOVERY_preprompt.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LED_Dome_Mukaab_Omniverse_Integration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/LinkList_Cursor_Docs_Discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_GraphEditor_Extension_Implementation_Plan.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/MaterialX_nodegraphIntegration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Model_Compute_Strategy_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Munich_Urban_Digital_TWIN_OGC_OpenUSD_integration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Learn OpenUSD_Learning path_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_SIEMENS_DigitalTwinComposer_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/NVIDIA_Vera Rubin Platform and 13 Open AI Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Omniverse_Sequenzer_Camera_Animation_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/OpenClaw_Soul-Skils_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Ralph_Wiggum_method_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Recursive_Language_Models_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DEBUG_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY02.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DISCOVERY03.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Setting up BREV with Launchable_DOCUMENTATION.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD colaboration_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Shared Repos for USD collaboration_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Sphinx Setup_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_RightClick_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/USDgoodstart_explorer_extension_USDA_preview_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/VarianSets_In_SessionLyr_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WRAPP_Workflow Reproducible Asset Packaging Publishing_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Walrus_DataViz_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/WebNativeFrontends_Omniverse_WebRTC_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/Workflow_Engine_Userguide_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aa_Temp/Circular Economy Botrop Discovery_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/ai_discovery_tools_test.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/aipowered_code_generation_tools_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/automatic_file_opening_feature_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/context_window_optimization_techniques_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/documentation_layering_patterns_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_comprehensive_test_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/final_test_of_autoopening_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/machine_learning_optimization_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/normal_subject_without_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/quantum_computing_applications_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/some_discovery.md`
+- `General_Research/070_Proj_RESEARCH/02_Research_WIP/test_discovery_topic_DISCOVERY.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/OpenUSD_Composable_bindings_data_integration_pipeline_evaluation_RESEARCH.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/openusd_composable_bindings_data_integration_pipeline_evaluation.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/robotics_digital_twin_ecosystem.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_omniverse_research.md`
+- `General_Research/070_Proj_RESEARCH/digital_twin/validation_simulation_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/conveyor_belts_manufacturing_research.md`
+- `General_Research/070_Proj_RESEARCH/industry/mechanical_engineering_usd_relevance.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/cursor_ide_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_app_comparison_research.md`
+- `General_Research/070_Proj_RESEARCH/omniverse/omniverse_kit_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/technical_issues/lidar_ray_detection_isaaclab_issue.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/animation_setup_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/model_kinds_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/prims_schemas_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/stage_traversal_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/strength_ordering_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_architecture_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_core/usd_properties_research.md`
+- `General_Research/070_Proj_RESEARCH/usd_import/catia_3dxml_to_digital_twin_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_research.md`
+- `General_Research/070_Proj_RESEARCH/workflows/process_tool_variants_tutorial.md`
+- `General_Research/070_Proj_RESEARCH/workflows/variants_livrps_ide_workflows.md`
+- `General_Research/080_Proj_RULES/README.md`
+- `General_Research/AGENTS_Research.md`
+- `General_Research/CHANGELOG.md`
+- `General_Research/CONTRIBUTING.md`
+- `General_Research/ECOSYSTEM_INTEGRATION_GUIDE.md`
+- `General_Research/README.md`
+- `General_Research/RESEARCH_ORGANIZATION_SUMMARY.md`
+- `General_Research/SECURITY.md`
+- `General_Research/SUBMODULE_SETUP_GUIDE.md`
+- `General_Research/local_log.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G006_Requirements_Generation_GUIDE.md`
+- `General_Scripts_Extensions_Apps/010_Proj_GUIDES/G009_Framework_Skills_Refactor_GUIDE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/00_Discovery_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/010_plugin_project_structure_template/TEMPLATE_Plugin_Project_Common/README_TEMPLATE.md`
+- `General_Scripts_Extensions_Apps/030_Proj_TEMPLATES/requirements_generation_template.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_discovery_guide.md`
+- `General_Scripts_Extensions_Apps/050_Proj_DOCS/environment_guides/environment_setup_guide.md`
+- `General_Scripts_Extensions_Apps/AGENTS_Scripts_Extensions_Apps.md`
+- `General_Tutorials/030_Proj_TEMPLATES/MasterTutorial_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_BestPractices_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Foundation_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Integration_template.md`
+- `General_Tutorials/030_Proj_TEMPLATES/Tutorial_Troubleshooting_template.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/00_understanding Omniverse and USD with Robotics_Digital Twins__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/100_The Two Bubbles of OpenUSD--and the Bridge Between Them_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Process_and_Tool_Variants__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/11_Omniverse_Prozess_und_Werkzeugvarianten__TUTORIAL_V01.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/12_USD_attributes_and_relationships__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/13_stage traversal__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/14_Working With Prims and Default Schemas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/15_Using Attributes__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/16_Understanding Model Kinds_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/17_Setting up Animations_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/18_An Introduction to Strength Ordering__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Clone+Build_Omniverse_with_KIT_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Comparison_Composer_Viewer_Explorer_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/ConveyorBelts_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Im_a_Mechanical_Engineer_How_is_USD_Relevant_to_Me__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Input Issues questions/LiDAR Ray Detection Issue in IsaacLab_FOLDER/LiDAR Ray Detection Issue in IsaacLab.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Setting up CURSOR as default Omniverse IDE_DISOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Validation_Simulation_OMNIVERSE_DISCOVERY.MD`
+- `General_Tutorials/070_Proj_TUTORIALS/0X_Discovery_Files/Variants_Livrps_IDE Workflows_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07A_USD_File_Format_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07B_USD_Composition_Gotchas__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07C_Local_vs_Nucleus_Workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07D_Fake_USD_Learning_Environments__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07E_USD_Layer_Naming_Conventions__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07F_USD_Nucleus_Tips_Tricks__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07G_standardized_environments_for_material_review__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07H_python_environment_setup_for_usd_omniverse__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07I_usd_scripting_ai_ide_workflows__DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07J_Version Control Nucleus vs Diversion vs Assembla_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07j_material_libraries_and_production_scalability_DISCOVERY.md`
+- `General_Tutorials/070_Proj_TUTORIALS/500_USD_Tips_and_Tricks__Resources/07k_valid_but_broken_vendor_usd_issues_Discovery.md`
+- `General_Tutorials/090_Proj_LEARNING_SPACES/1100_Vision_Memex_Learningspace.md`
+- `General_Tutorials/LIMITATIONS.md`
+- `General_Tutorials/README.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/01_Project_Description_Brief.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/02_Project_Description_Detailed.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/03_Project_Description_Medium.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/04_Project_Description_FAQ.md`
+- `Master_Rules/010_Framework_GUIDES/FRAMEWORK_DESCRIPTION/Funding_Application_Project_Descriptions_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/G004_Framework_Training_and_Onboarding_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G006_Framework_Workflow_User_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G007_Model_Selection_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/G008_Testing_Workflow_Integration_GUIDE.md`
+- `Master_Rules/010_Framework_GUIDES/Link_Preservation_Implementation_Summary.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/QualityAssementTEST_TEMPLATEandLLM_260111_REPORT.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_A.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_B__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_C.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_D.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_E__research_comparison_report.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_AB_COMPARE_F__link_preservation_analysis.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_DISCOVERY.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_GAP_ANALYSIS.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V01.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V02.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.1.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V03.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V04.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_AB_V05.md`
+- `Master_Rules/010_Framework_GUIDES/QualityAssementTEST_TEMPLATEandLLM_260111/SecondBrain_Memex_RESEARCH_CRITIQUE.md`
+- `Master_Rules/020_Framework_AGENTS/AGENTS_Framework.md`
+- `Master_Rules/020_Framework_AGENTS/FRAMEWORK_DOCS_INDEX.md`
+- `Master_Rules/020_Framework_AGENTS/SKILLS_INDEX.md`
+- `Master_Rules/030_Framework_TEMPLATES/templates/research_template.md`
+- `Master_Rules/040_Framework_TOOLS/workflow_engine/README.md`
+- `Master_Rules/060_Framework_HANDOVERS/A001_Framework_Initiation_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A002_Framework_Planning_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A006_Repository_Structure_Resolution_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A026_Phase_12_13_Best_Practices_System_Clarification_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A027_Phase_13_Discovery_Log.md`
+- `Master_Rules/060_Framework_HANDOVERS/A031_Template_LLM_Quality_Assessment_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A032_Phase_5_Template_Iteration_Complete_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A035_Discovery_Frame_Enforcement_Deviations_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A036_Template_Governance_SecondBrain_Memex_Phase19_Update_HANDOVER.md`
+- `Master_Rules/060_Framework_HANDOVERS/A037_Requirements_Template_Canonicalization_HANDOVER.md`
+- `Master_Rules/085_Framework_Development/Phase_19_SecondBrain_Memex_Requirements.md`
+- `Master_Rules/085_Framework_Development/Phase_27_Registry_System.md`
+- `Master_Rules/085_Framework_Development/Phase_35_1_LabDb9_Considerations.md`
+- `Master_Rules/085_Framework_Development/examples/web_frontend_example.md`
+- `Master_Rules/CHANGELOG.md`
+- `Master_Rules/TAG_SEMANTIC_INDEX.md`
+

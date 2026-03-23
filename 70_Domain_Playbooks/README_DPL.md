@@ -32,4 +32,4 @@ tags: [studio_framework, domain_playbooks]
 #studio_framework #domain_playbooks
 
 ---
-Domain-facing playbooks and reusable law for builder work across disciplines.
+This folder defines the domain-facing playbooks and reusable operating law for builder work across disciplines.

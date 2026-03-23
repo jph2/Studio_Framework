@@ -32,5 +32,5 @@ tags: [studio_framework, connectors]
 #studio_framework #connectors
 
 ---
-Connector/control layer references.
-Connectors are not work surfaces; they bridge into surfaces and services.
+This folder defines the connector/control layer references that bridge into work surfaces and services.
+Connectors are not work surfaces.

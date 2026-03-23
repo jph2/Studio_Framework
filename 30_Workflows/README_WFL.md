@@ -32,4 +32,4 @@ tags: [studio_framework, workflows]
 #studio_framework #workflows
 
 ---
-Workflow definitions for creating, refining, reviewing, and promoting artifacts.
+This folder defines the workflows for creating, refining, reviewing, routing, and promoting the live artifacts stored in `00_Artifacts`.

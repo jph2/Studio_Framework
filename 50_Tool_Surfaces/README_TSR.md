@@ -32,5 +32,5 @@ tags: [studio_framework, tool_surfaces]
 #studio_framework #tool_surfaces
 
 ---
-Tool/work surfaces where hands-on building happens.
+This folder defines the work surfaces where hands-on building happens and clarifies what kind of work belongs on each surface.
 These surfaces are governed by OpenClaw and supported by the Studio Framework.

@@ -35,7 +35,7 @@ tags: [studio_framework, workflows, promotion, project_bridges]
 
 ## Purpose
 
-Defines when work leaves shared incubation and becomes a standalone project.
+Defines when work leaves Studio preparation and becomes a standalone project, repo, or implementation space.
 
 ## Promote when
 - stable core purpose exists

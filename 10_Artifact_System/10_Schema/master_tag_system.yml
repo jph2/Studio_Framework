@@ -1,54 +1,679 @@
-meta:
-  version: 0.1.0
-  last_updated: "2026-03-21T18:31:01Z"
+meta: {version: 1.3.4, last_updated: 2026-02-17}
 
+# Terminology Note:
+# Internally, tags and keywords are the same—we treat them all as tags.
+# When communicating externally, "tags/keywords" is acceptable for clarity.
+# This file is the single source of truth for all tags/keywords.
+
+# =========================
+# CORE (reusable building blocks)
+# =========================
 core:
-  artifact_tags:
-    - discovery
-    - research
-    - tutorial
-    - requirements
-    - specification
-    - implementation_plan
-    - checklist
-    - template
-    - workflow
-    - standard
+  tag_categories: &tag_categories
+    environment: &env_tags
+      - "inside_omniverse"      # Runs in Omniverse script editor
+      - "outside_omniverse"     # Runs as standalone script
+      - "hybrid"                # Can run in both environments
+      - "standalone"            # Independent execution
+      - "omniverse_editor"      # Omniverse-specific features
+    
+    functionality: &func_tags
+      - "materials"             # Material-related operations
+      - "materialx"             # MaterialX node graph, GraphEditor, material authoring
+      - "variants"              # Variant management
+      - "debugging"             # Debug and analysis tools
+      - "analysis"              # Scene and data analysis
+      - "conversion"            # Format or type conversion
+      - "etl"                   # Extract, Transform, Load data pipelines
+      - "consolidation"         # Combining or merging operations
+      - "export"                # Data export functionality
+      - "import"                # Data import functionality
+      - "validation"            # Data validation and checking
+      - "optimization"          # Performance optimization
+      - "machine_learning"      # ML optimization and model training
+      - "cleanup"               # Data cleanup and maintenance
+      - "backup"                # Backup and restore operations
+      - "packaging"             # Asset packaging and distribution
+      - "distribution"          # Asset distribution workflows
+      - "version_control"       # Version management
+      - "automation"            # Automated workflows
+      - "rendering"             # Rendering and visualization operations
+      - "gaussian_splatting"    # 3D Gaussian Splatting / neural radiance representation
+      - "capture"               # Image/video capture and recording
+      - "compositing"           # Image compositing and post-production
+      - "extension_development" # Building extensions/plugins for host applications
+      - "camera_management"     # Camera setup, animation, and control
+      - "synthetic_data_generation" # Generating synthetic training data for AI/ML
+      - "semantic_integration"  # Semantic data integration
+      - "binding_management"    # Binding creation and management
+      - "governance"            # Governance and compliance operations
+      - "agent_orchestration"   # Multi-agent coordination and workflow orchestration patterns
+      - "multi_agent_systems"   # Systems that coordinate multiple AI agents working together
+      - "swarm_intelligence"    # Collective intelligence patterns with multiple coordinating agents
+      - "memory_systems"        # Persistent memory systems for AI agents (vector search, pattern matching)
+      - "open_brain"           # Open, agent-readable memory infrastructure (Postgres + MCP)
+    
+    use_case: &use_case_tags
+      - "scene_analysis"        # USD scene analysis
+      - "material_management"   # Material organization and editing
+      - "variant_control"       # Variant selection and management
+      - "performance_tuning"    # Performance optimization
+      - "quality_assurance"     # Quality checking and validation
+      - "workflow_automation"   # Automated workflows
+      - "usd_start_point"      # Canonical USD start-point anchor in multi-export and downstream ComfyUI workflows
+      - "2d_spanning_tree"      # Stable navigation structure (e.g., Memex/knowledge navigation)
+      - "second_brain_system"   # Personal knowledge system (Second Brain)
+      - "memex"                 # Memex concept / knowledge augmentation space
+      - "knowledge_graph"       # Graph-based knowledge representation (nodes/edges)
+      - "stable_knowledge_navigation" # Stable navigation model for knowledge spaces
+      - "time_tracking"         # Time tracking / timesheets for auditability
+      - "audit_readiness"       # Audit-ready documentation & evidence setup
+      - "evidence_chain"        # Evidence linkage (time → work package → artifacts)
+      - "data_provenance"       # Data lineage/provenance (source → transforms → derived signals → outcomes)
+      - "novelty_requirement"   # Novelty requirement (e.g., BSFZ/FuE logic)
+      - "technical_uncertainty" # Technical uncertainty / Unwägbarkeit framing
+      - "systematic_r_and_d_method" # Planmäßigkeit / systematic R&D approach
+      - "work_package_planning" # Work packages (Arbeitspakete) planning & outputs
+      - "deterministic_workflows" # Deterministic / reproducible workflows
+      - "replayability"         # Replayability / reproducible reruns & recovery
+      - "data_export"           # Exporting data for analysis
+      - "file_processing"       # File manipulation and processing
+      - "batch_processing"      # Processing multiple files
+      - "error_fixing"          # Fixing common USD issues
+      - "digital_twin_creation" # Digital twin development and management
+      - "industrial_integration" # Industrial system integration
+      - "semantic_governance"   # Semantic governance implementation
+      - "binding_automation"    # Automated binding creation and management
+      - "ai_assisted_development" # Development workflows enhanced with AI assistance
+      - "context_window"        # LLM context window management and optimization
+      - "generative_ai"         # Generative AI workflows (LLMs, diffusion, content generation)
+      - "context_engineering"   # Designing and optimizing context for LLMs and AI agents
+      - "product_photography"   # Automated product shot / catalog image generation
+      - "turntable_capture"     # 360-degree product turntable rendering
+      - "variant_sweep"         # Automated sweep through VariantSet combinations
+      - "ai_content_pipeline"   # End-to-end pipeline from 3D rendering to AI-enhanced content
+      - "branding"              # Branding / identity / visual identity
+    
+    complexity: &complexity_tags
+      - "beginner"              # Simple, easy to use
+      - "intermediate"          # Moderate complexity
+      - "advanced"              # Complex operations
+      - "expert"                # Professional-level tools
+      - "sme"                   # Subject matter expert level
+    
+    dependencies: &dep_tags
+      - "usd_core"              # Requires USD Python bindings
+      - "omniverse"             # Requires Omniverse environment
+      - "python_standard"       # Standard Python only
+      - "external_libs"         # Requires external libraries
+    
+    industry: &industry_tags
+      - "automotive"            # Automotive industry specific
+      - "aerospace"             # Aerospace industry specific
+      - "architecture"          # Architecture and construction
+      - "gaming"                # Game development
+      - "visual_effects"        # VFX and animation
+      - "manufacturing"         # Manufacturing and CAD
+      - "digital_twin"          # Digital twin applications
+      - "machinery"             # Machinery and equipment
+      - "construction"          # Construction industry
+      - "industrial_automation" # Industrial automation and control systems
+      - "enterprise_software"   # Enterprise resource planning and management
+      - "crm"                   # Customer relationship management systems and workflows
+      - "healthcare"            # Healthcare domain (clinical systems, regulated patient data)
+      - "catia"                 # Dassault CATIA / 3DEXPERIENCE CAD platform
+      - "plant_simulation"      # Plant simulation / discrete event simulation (e.g. Siemens)
+      - "isaac_sim"            # NVIDIA Isaac Sim robotics/simulation stack
+      - "opc_ua"                # OPC UA industrial protocol
+      - "catena_x"              # Catena-X automotive data ecosystem
+      - "ogc"                   # OGC geospatial standards
+      - "circular_economy"      # Circular economy / sustainability
+    
+    research_type: &research_tags
+      - "performance_benchmark" # Performance testing and benchmarks
+      - "workflow_optimization" # Workflow improvement research
+      - "integration_pattern"   # Integration pattern research
+      - "best_practices"        # Best practice documentation and proven patterns (canonical; use instead of best_practice)
+      - "case_study"           # Case study analysis
+      - "troubleshooting"      # Problem-solving research
+      - "cost_benefit"         # Cost-benefit analysis of tools/architectures
+      - "risk_assessment"      # Risk assessment and mitigation planning in research/implementation
+      - "cultural_engineering"  # Cross-cultural engineering research
+      - "industrial_adoption"   # Industrial technology adoption studies
+      - "open_source"          # Open-source ecosystem and licensing/adoption research
+      # Use semantic_integration from functionality for semantic integration topics
+      - "digital_thread"        # Digital thread implementation research
+      - "r_and_d_tax_credit"     # Research tax credit / Forschungszulage topic
+      - "bsfz_certification"     # BSFZ certification process (FuE content review)
+      - "elster_submission"      # ELSTER submission process (tax office filing)
+      - "tax_authority_process"  # Tax authority process (assessment/settlement)
+      - "eligible_costs"         # Eligible cost categories (Bemessungsgrundlage)
+      - "owner_contribution_hours" # Owner contribution hours (Eigenleistung)
+      - "overhead_allowance"     # Overhead allowance / Gemeinkostenpauschale
+      - "sme_status"             # SME/KMU status classification
+      - "contract_research"      # Contract research / Auftragsforschung
+      - "depreciation_allowance" # Depreciation allowance for R&D assets
+      - "quantum_computing"      # Quantum computing applications and research
+    
+    usd_specific: &usd_tags
+      - "openusd"              # OpenUSD standard/platform context (schemas, governance, adoption)
+      - "composition"           # USD composition analysis
+      - "layers"               # Layer management
+      - "references"           # Reference handling
+      - "payloads"             # Payload operations
+      - "variants"             # Variant system
+      - "inheritance"          # Prim inheritance
+      - "specialization"       # Prim specialization
+      - "instancing"           # Prim instancing
+      - "prototypes"           # Prototype management
+      - "collections"          # Collection operations
+      - "stage"                # USD Stage operations
+      - "prims"                # Prim operations
+      - "schemas"              # Schema definitions
+      - "aas_integration"      # Asset Administration Shell integration
+      - "asset_resolver"       # USD Asset Resolver / path resolution
+      - "composable_bindings"  # Composable binding systems
+      - "layered_architecture" # Layered architectural patterns
+      - "semantic_governance"  # Semantic governance frameworks
+      - "binding_engine"       # Binding engine operations
+      - "deterministic_composition" # Deterministic composition substrates
+      - "render_product"       # USD RenderProduct prim for AOV/capture output
+      - "render_var"           # USD RenderVar prim for individual AOV passes
+      - "aov"                  # Arbitrary Output Variables (render passes: beauty, depth, normals, etc.)
+      - "multimatte"           # MultiMatte object ID masking for compositing
+      - "path_tracing"         # Path tracing renderer mode (RTX PT)
+      - "sequencer"            # Omniverse Sequencer extension for timeline-based camera animation
+      - "movie_capture"        # Omniverse Movie Capture extension for frame/sequence rendering
+    
+    performance: &perf_tags
+      - "memory_efficient"     # Memory-optimized operations
+      - "fast_execution"       # Optimized for speed
+      - "batch_optimized"      # Optimized for batch processing
+      - "scalable"             # Scales with data size
+      - "performance"          # Performance considerations
+    
+    safety: &safety_tags
+      - "dry_run"              # Supports dry-run mode
+      - "backup_creation"      # Creates backups automatically
+      - "validation"           # Validates before execution
+      - "rollback"             # Supports rollback operations
+      - "safe_execution"       # Safe execution practices
+    
+    integration: &integration_tags
+      - "api_integration"      # Integrates with external APIs
+      - "fhir"                 # HL7 FHIR interoperability standard (healthcare integration surface)
+      - "event_driven_architecture" # Pub/sub + stream-based integration pattern (state change propagation, replay)
+      - "database"             # Database operations
+      - "cloud_storage"        # Cloud storage integration
+      - "version_control"      # Version control integration
+      - "ci_cd"                # CI/CD pipeline integration
+      - "mcp_protocol"         # Model Context Protocol (MCP) for exposing framework capabilities as tools
+      - "claude_code"          # Anthropic's Claude Code IDE and its integration patterns
+      - "claude_flow"          # Claude Flow orchestration workflows and multi-agent coordination patterns
+      - "framework_integration" # Integration patterns for connecting frameworks, tools, and systems
+      - "davinci_resolve"      # DaVinci Resolve compositing/grading integration
+      - "comfyui"              # ComfyUI generative AI node-based workflow integration
+      - "cursor"               # Cursor IDE and its AI-assisted coding workflows
+      - "opencode"             # OpenCode AI coding agent (terminal, IDE extension, AGENTS.md)
+      - "usd_goodstart"        # USD_GoodStart repository context (project/repo identity)
+      - "openusd_goodstart"    # OpenUSD-GoodStart repository context (project/repo identity)
+      - "ollama"               # Ollama local LLM runtime integration
+      - "ai_coding_agents"     # AI coding agents (Cursor, OpenCode, Claude Code, etc.)
+      - "vibe_coding"          # Exploratory, conversational AI-assisted coding (vs. precise/structured)
+      - "blender"              # Blender DCC integration
+      - "c4d"                  # Cinema 4D DCC integration
+      - "rhino"                # Rhino DCC integration
+      - "openclaw"             # OpenClaw personal AI assistant (patterns, skills, SOUL)
+      - "beads"                # Beads git-backed graph issue tracker for AI agent memory/task tracking
+      - "skills"               # Agent skills / packaged know-how (SKILL.md, triggers)
+      - "personal_assistant"   # Personal AI assistant workflows and integration
+      - "nvidia_cosmos"        # NVIDIA Cosmos World Foundation Models (Predict, Transfer, Reason)
+      - "nvidia_replicator"    # NVIDIA Omniverse Replicator synthetic data generation framework
+      - "post_production"      # Post-production pipeline integration (compositing, grading, editing)
+      - "brev"                 # BREV cloud GPU compute
+      - "sphinx"               # Sphinx documentation tooling
+      - "walrus"               # Walrus data visualization
+      - "web_rtc"              # WebRTC real-time communication
+      - "websocket_api"        # WebSocket-based real-time API integrations
+      - "omniverse_nucleus"    # NVIDIA Omniverse Nucleus collaboration/storage integration
+      - "grasshopper"          # Grasshopper parametric workflow integration (Rhino ecosystem)
+    
+    output: &output_tags
+      - "csv_output"           # Generates CSV files
+      - "json_output"          # Generates JSON files
+      - "usd_output"           # Generates USD files
+      - "log_output"           # Generates log files
+      - "report_output"        # Generates reports
+      - "visual_output"        # Generates visual output
+    
+    input: &input_tags
+      - "file_input"           # Takes file input
+      - "directory_input"      # Takes directory input
+      - "command_line"         # Command-line interface
+      - "gui_input"            # Graphical user interface
+      - "api_input"            # API-based input
+      - "interactive_input"    # Interactive user input
 
-  system_tags:
-    - studio_framework
-    - artifact_system
-    - quality_system
-    - tool_surfaces
-    - connectors
-    - project_bridges
-    - reference_archive
+  # Flat tag cloud for backward compatibility
+  flat_tag_cloud: &flat_cloud
+    - "ActionGraph"
+    - "AEC" 
+    - "Animation"
+    - "API"
+    - "Art"
+    - "Artificial Intelligence"
+    - "Attribute"
+    - "Augmented Reality"
+    - "Automation"
+    - "BIM"
+    - "CAD"
+    - "CATIA"
+    - "Computer Vision"
+    - "Composition"
+    - "Connectors"
+    - "Creative"
+    - "Cursor"
+    - "Debugging"
+    - "Digital Twins"
+    - "DigitalTwin"
+    - "DirectRL"
+    - "Education"
+    - "Generative AI"
+    - "Geometry"
+    - "Gf"
+    - "GitLFS"
+    - "Hydra"
+    - "IDE"
+    - "Imaging"
+    - "Industry Insight"
+    - "Inherits"
+    - "Instancing"
+    - "IoT"
+    - "IsaacLab"
+    - "IsaacSim"
+    - "Joints"
+    - "Layer"
+    - "LayerStack"
+    - "LazyLoading"
+    - "LiDAR"
+    - "LIVRPS"
+    - "LOD"
+    - "Machine Learning"
+    - "Manufacturing"
+    - "Material"
+    - "MaterialBinding"
+    - "MaterialLibrary"
+    - "MDL"
+    - "Modeling"
+    - "Modules"
+    - "NamingConventions"
+    - "New Technologies"
+    - "Nucleus"
+    - "Omniverse"
+    - "Omniverse-Composer"
+    - "Omniverse-Create"
+    - "Payload"
+    - "Performance"
+    - "PerformanceOptimization"
+    - "Physical AI"
+    - "Physics"
+    - "Pipeline Tools and Work"
+    - "Pipeline"
+    - "Prim"
+    - "PrimPath"
+    - "Production & Animation"
+    - "ProjectStructure"
+    - "Property"
+    - "Prototype"
+    - "PushGraph"
+    - "RayCasterCfg"
+    - "Real-Time"
+    - "Reference"
+    - "Relationship"
+    - "RenderSettings"
+    - "Rendering"
+    - "Research & Education"
+    - "Robotics"
+    - "RootLayer"
+    - "RTX"
+    - "Schema"
+    - "Sdf"
+    - "Scientific Visualization"
+    - "SessionLayer"
+    - "Simulation"
+    - "Skills"
+    - "Spatial Computing"
+    - "Specializes"
+    - "Stage"
+    - "Streaming"
+    - "Sublayer"
+    - "USD"
+    - "Usd"
+    - "USDA"
+    - "USDC"
+    - "UsdGeom"
+    - "usdImaging"
+    - "UsdLux"
+    - "UsdMedia"
+    - "UsdPhysics"
+    - "UsdRender"
+    - "UsdShade"
+    - "UsdSkel"
+    - "UsdUI"
+    - "usdview"
+    - "UsdVol"
+    - "USDZ"
+    - "Validation"
+    - "Variant"
+    - "VariantSet"
+    - "VersionControl"
+    - "Virtual Reality"
+    - "VSCode"
+    - "AAS"
+    - "Asset Administration Shell"
+    - "Composable Bindings"
+    - "Digital Engineering Loop"
+    - "Digital Thread"
+    - "Digital Twin"
+    - "Layered Architecture"
+    - "Universal Scene Description"
+    - "V-Model"
+    - "Semantic Governance"
+    - "Binding Engine"
+    - "Deterministic Composition"
+    - "Runtime Negotiation"
+    - "Round-Trip Capability"
+    - "Hard Kernel"
+    - "Soft Extensions"
+    - "Two-Speed Delivery"
+    - "Greenfield Projects"
+    - "Brownfield Projects"
+    - "Declarative Bindings"
+    - "Code Bindings"
+    - "Binding Evolution Framework"
+    - "AAS Submodel Templates"
+    - "IDTA"
+    - "Industrial Digital Twin Association"
+    - "IEC 63278-1"
+    - "ISO 81346"
+    - "PiLog"
+    - "ECLASS"
+    - "IEC CDD"
+    - "Semantic ID"
+    - "Semantic Dictionary"
+    - "Source of Truth"
+    - "Provenance Receipt"
+    - "PLM"
+    - "Product Lifecycle Management"
+    - "ERP"
+    - "Enterprise Resource Planning"
+    - "MES"
+    - "Manufacturing Execution System"
+    - "Bill of Materials"
+    - "BOM"
+    - "EBOM"
+    - "MBOM"
+    - "As-planned"
+    - "As-built"
+    - "PLC"
+    - "Programmable Logic Controller"
+    - "SPS"
+    - "Speicherprogrammierbare Steuerung"
+    - "SCADA"
+    - "HMI"
+    - "Human-Machine Interface"
+    - "OPC UA"
+    - "I4AAS"
+    - "OT"
+    - "Operational Technology"
+    - "IT"
+    - "Information Technology"
+    - "IIoT"
+    - "Industrial Internet of Things"
+    - "German Engineering Culture"
+    - "Silicon Valley Culture"
+    - "Chinese Engineering Culture"
+    - "Japanese Engineering Culture"
+    - "Cultural Synthesis"
+    - "Kaizen"
+    - "Jidoka"
+    - "Poka-Yoke"
+    - "Monozukuri"
+    - "Strength Ordering"
+    - "LIVERPS"
+    - "ListOps"
+    - "List Operations"
+    - "Flatten"
+    - "Squash"
+    - "Opinions"
+    - "AOUSD"
+    - "Alliance for OpenUSD"
+    - "CI/CD"
+    - "Continuous Integration"
+    - "Continuous Delivery"
+    - "Design Space Exploration"
+    - "Pareto Front"
+    - "Local Optima"
+    - "Global Optima"
+    - "Multi-objective Optimization"
+    - "Latin Hypercube Sampling"
+    - "Sattelfläche"
+    - "Data Lake"
+    - "Data Lake Architecture"
+    - "CloudEvents"
+    - "OpenTelemetry"
+    - "OTEL"
+    - "Semantic Conventions"
+    - "Event-Driven Architecture"
+    - "Bidirectional Data Flow"
+    - "Runtime Integration"
+    - "Model Hub"
+    - "Scenario Twin"
+    - "Assurance Twin"
+    - "Operational Twin"
+    - "Improvement Twin"
+    - "Closed-Loop Twin"
+    - "Decision System"
+    - "Represent"
+    - "Contextualize"
+    - "Predict"
+    - "Decide"
+    - "Act"
+    - "BindingSpec"
+    - "BindingPlan"
+    - "BindingChangeSet"
+    - "Contract Pack"
+    - "Binding Pack"
+    - "Release Process"
+    - "Kernel Fields"
+    - "Schema Validation"
+    - "Conformance Tests"
+    - "Integration Tests"
+    - "Submodel Zoo"
+    - "PDF-in-AAS"
+    - "Semantics Later"
+    - "No Rollback for Bindings"
+    - "USD Composition Errors Non-Fatal"
+    - "Data Swamp"
+    - "Local Optima Trap"
+    - "Cultural Resistance"
+    - "Over-Engineering"
+    - "Composable Digital Twins"
+    - "Binding Runtime"
+    - "AI-Assisted Hardening"
+    - "Multi-Agent Governance"
+    - "Human-in-the-Loop Approval"
+    - "Versioned Binding History"
+    - "Self-Simulating Systems"
+    - "Technology Maturity Levels"
+    - "LLM Research Dynamics"
+    - "Industrial Stakeholder Complexity"
+    - "Evidence-Based Emphasis"
+    - "Research Direction Alignment"
+    - "LLM-Assisted Research"
+    - "Technology Maturity Assessment"
+    - "Validation Requirements"
+    - "AOUSD Industrial Profile"
+    - "Compliance Verification"
+    - "Risk Assessment"
+    # --- v1.1.0 additions (2026-02-10) ---
+    # Rendering & Capture
+    - "Sequencer"
+    - "Camera"
+    - "MovieCapture"
+    - "RenderProduct"
+    - "RenderVar"
+    - "AOV"
+    - "MultiMatte"
+    - "PathTracing"
+    - "EXR"
+    # Product Photography & Automation
+    - "ProductPhotography"
+    - "TurntableCapture"
+    - "VariantSweep"
+    - "PackShot"
+    # Downstream Integrations
+    - "DaVinciResolve"
+    - "ComfyUI"
+    - "NVIDIA Cosmos"
+    - "NVIDIA Replicator"
+    - "SyntheticData"
+    - "WorldFoundationModel"
+    - "DomainRandomization"
+    # Extension Development
+    - "KitExtension"
+    - "ExtensionUI"
 
-  surface_tags:
-    - ide
-    - cad_dcc
-    - browser_terminal
-    - acp
-    - mcp
-    - openshell
-
-  domain_tags:
-    - software
-    - usd_dcc
-    - product_design
-    - marketing_content
-
-  lifecycle_tags:
-    - schema
-    - templates
-    - workflows
-    - validation
-    - incubation
-    - promotion
-    - archive
-
+# =========================
+# RULES (use core by id/anchors)
+# =========================
 rules:
-  format: lowercase_with_underscores
-  min_per_document: 5
-  max_per_document: 20
-  one_tag_block_per_document: true
+
+  tag_usage_standards:
+    format: "lowercase_with_underscores"
+    block_label: "Tag block"
+    single_tag_block: "Exactly one top-level tag block per document"
+    min_per_document: 5
+    sweet_spot_per_document: "14-18"
+    max_per_document: 25
+    required_categories: ["environment", "functionality", "use_case"]
+    recommended_categories: ["complexity", "industry", "dependencies"]
+    optional_categories: ["research_type", "usd_specific", "performance", "safety", "integration", "output", "input"]
+    
+  tag_selection_guidelines:
+    primary: "Start with primary functionality and environment"
+    secondary: "Add complexity, industry, and use case tags"
+    specific: "Include relevant USD-specific and performance tags"
+    safety: "Add safety tags for production tools"
+    integration: "Include integration tags for connected tools"
+    length_sensitive_targeting:
+      short_docs: "5-10 tags for short/simple notes"
+      medium_docs: "10-16 tags for medium documents"
+      long_docs: "14-20 tags for long/complex research"
+  
+  tag_usage_notes:
+    digital_twin: "digital_twin (industry) = domain/vertical; digital_twin_creation (use_case) = activity/workflow"
+    goodstart_semantics: "usd_goodstart/openusd_goodstart = repository identity tags; usd_start_point = pipeline start-point concept"
+    alias_resolution:
+      variansets_in_sessionlyr: "Use variants + layers (typo/legacy filename pattern; do not add as tag)"
+      forschungszulage_einzelunternehmer_devframework: "Use r_and_d_tax_credit + bsfz_certification (topic phrase, not a tag)"
+      workflow_engine_userguide: "Use workflow_automation (document type words like userguide are noise)"
+      ai_coding_colemedin: "Use ai_assisted_development or ai_coding_agents (person names are noise)"
+      aipowered_code_generation_tools: "Use ai_assisted_development (phrase normalized to canonical capability)"
+      usd_startpoint: "Use usd_start_point (normalized underscore form)"
+      websocket: "Use websocket_api (canonical API transport tag)"
+      nucleus: "Use omniverse_nucleus (canonical Omniverse storage/collab tag)"
+    noise_patterns:
+      - "Document-state words are noise: final, test, draft, normal_subject, example, userguide"
+      - "Long topic phrases should map to canonical tags, not become tags"
+      - "Personal names or repo-local labels are noise unless recurring framework concepts"
+    
+  tag_validation:
+    must_exist: "All tags must exist in master tag system"
+    case_sensitive: "Use exact case from master definitions"
+    no_duplicates: "No duplicate tags within same document"
+    relevant: "Tags must be relevant to document content"
+    
+  tag_examples:
+    material_tool: "materials, material_management, consolidation, analysis, hybrid, intermediate, usd_core, batch_processing, safe_execution, csv_output"
+    variant_tool: "variants, variant_control, conversion, bulk_processing, outside_omniverse, advanced, usd_core, batch_processing, backup_creation, usd_output"
+    debug_tool: "debugging, composition, performance, validation, hybrid, expert, usd_core, scene_analysis, memory_efficient, log_output"
+    research_doc: "workflow_optimization, integration_pattern, packaging, distribution, version_control, omniverse, digital_twin, manufacturing, intermediate, usd_core, automation, performance"
+    tutorial_doc: "materials, material_management, beginner, inside_omniverse, usd_core, automotive, best_practices, stage, prims, schemas"
+    aas_integration_tool: "aas_integration, composable_bindings, semantic_governance, industrial_integration, digital_twin_creation, binding_automation, enterprise_software, industrial_automation, advanced, usd_core, semantic_integration, governance"
+    product_shot_pipeline: "automation, rendering, capture, camera_management, product_photography, variant_sweep, advanced, omniverse, usd_core, troubleshooting, workflow_optimization, render_product, aov, multimatte, davinci_resolve, comfyui, nvidia_cosmos, nvidia_replicator"
+    multi_export_comfyui_pipeline: "usd_start_point, workflow_automation, openusd, comfyui, framework_integration, deterministic_workflows, data_provenance, validation, usd_output"
+
+  repository_specific:
+    tutorials:
+      focus: ["materials", "variants", "debugging", "analysis", "beginner", "intermediate", "usd_core", "omniverse", "best_practices"]
+      format: "Use flat tag cloud for backward compatibility"
+    scripts:
+      focus: ["automation", "batch_processing", "file_processing", "validation", "performance", "usd_core"]
+      format: "Use categorized tags for better organization"
+    research:
+      focus: ["workflow_optimization", "integration_pattern", "performance_benchmark", "case_study", "troubleshooting"]
+      format: "Use categorized tags with research-specific categories"
+
+  tag_sync_mechanism:
+    description: "Bidirectional synchronization between research documents and master tag system"
+    workflow_file: "General_Research/030_Proj_TEMPLATES/tag_sync_workflow.md"
+    tool_script: "General_Research/030_Proj_TEMPLATES/tag_sync_tool.py"
+    
+    extraction_patterns:
+      keyword_sections: ["### 9.0 Document Keywords", "## Keywords", "*Keywords:"]
+      terminology_sections: ["### 9.2 Terminology", "## Terminology", "## Glossary"]
+      inline_keywords: "\\*Keywords:.*?\\*"
+      
+    sync_process:
+      step_1: "Extract keywords from document (Section 9.0, inline keywords, terminology)"
+      step_2: "Normalize keywords (lowercase, underscores, remove special chars)"
+      step_3: "Compare with master tag system (categorized + flat cloud)"
+      step_4: "Identify new keywords not in master system"
+      step_5: "Propose new tags with category suggestions"
+      step_6: "Update master tag system with approved tags"
+      step_7: "Update document with standardized tags from master system"
+      step_8: "Maintain traceability (tag proposal → approval → implementation)"
+      
+    tag_proposal_format:
+      required_fields: ["keyword", "proposed_tag", "category", "description", "source_document", "proposed_by", "date"]
+      optional_fields: ["related_tags", "usage_examples", "rationale"]
+      
+    approval_workflow:
+      auto_approve: "Tags matching existing patterns (lowercase_with_underscores, max 30 chars)"
+      manual_review: "Tags requiring category assignment, tags with conflicts, tags exceeding limits"
+      rejection_criteria: "Duplicate tags, tags violating naming conventions, tags without clear category"
+    
+    tag_governance:
+      prevent_explosion:
+        max_tags_per_category: 50
+        max_flat_tags: 500
+        review_threshold: "When category exceeds 40 tags, review for consolidation"
+        consolidation_criteria: "Merge similar tags, deprecate unused tags, create subcategories if needed"
+        review_frequency: "Quarterly review of tag usage statistics"
+        
+      tag_lifecycle:
+        proposal: "New tags proposed via tag sync tool"
+        review: "Manual review for tags requiring category assignment or exceeding limits"
+        approval: "Approved tags added to master system"
+        usage_tracking: "Track tag usage frequency across documents"
+        deprecation: "Tags unused for 12 months flagged for deprecation review"
+        consolidation: "Similar tags merged based on usage patterns"
+        
+      quality_gates:
+        naming_consistency: "All tags must follow lowercase_with_underscores format"
+        category_fit: "Tags must fit into existing category or justify new category"
+        uniqueness: "Tags must be unique within category and flat cloud"
+        relevance: "Tags must represent recurring concepts (used in 3+ documents)"
+        documentation: "New tags must include description and usage examples"
+        semantic_overlap: "Prefer existing canonical tags for overlapping meaning; add aliases/mapping before adding new tags"
+        noise_filter: "Reject tags that are document-state, person-name, or overly verbose topic phrases"
+        
+      explosion_prevention:
+        consolidation_strategy: "When category exceeds 45 tags, identify similar tags for merging"
+        subcategory_creation: "If consolidation not possible, create subcategory (requires approval)"
+        deprecation_strategy: "Deprecate unused tags before adding new ones in same category"
+        usage_analysis: "Quarterly analysis of tag usage to identify consolidation opportunities"
+        tag_hierarchy: "Use hierarchical tags (parent:child) for related concepts instead of separate tags"
+
+# (end)

@@ -48,8 +48,15 @@ Examples:
 ## Role
 
 - OpenClaw = governing layer
-- Studio Framework = artifact quality + workflow framework
+- Studio Framework = artifact quality + workflow framework beside OpenClaw
 - Project repos = implementation truth
+
+## Immediate structural rule
+
+- `00_Artifacts` holds the actual live working documents
+- `10` through `90` define how those documents are structured, templated, reviewed, routed, matured, bridged, and archived
+
+This distinction is important for both humans and agents.
 
 ## Purpose
 

@@ -32,4 +32,4 @@ tags: [studio_framework, artifact_system]
 #studio_framework #artifact_system
 
 ---
-Defines the artifact schema, artifact classes, and lifecycle rules.
+This folder defines the artifact schema, artifact classes, and lifecycle rules for the live documents stored in `00_Artifacts`.

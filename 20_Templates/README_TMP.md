@@ -32,4 +32,4 @@ tags: [studio_framework, templates]
 #studio_framework #templates
 
 ---
-Template library for artifact generation and iterative refinement inside IDEs and other work surfaces.
+This folder holds the reusable templates used to create and refine live artifacts in `00_Artifacts` across Studio work surfaces.

@@ -32,4 +32,4 @@ tags: [studio_framework, reference_archive]
 #studio_framework #reference_archive
 
 ---
-Reference-only and historical material that should not act as live governing truth.
+This folder holds reference-only and historical material that should not act as live governing truth for current Studio work.

@@ -46,9 +46,11 @@ Defines how artifact work should happen when the IDE is the hands-on editing sur
 ## Good fit for IDE work
 - Discovery
 - Research
-- Tutorial
+- Tutorial Prep
+- Paper Prep
+- Project Prep
 - Requirements
-- Specification
+- optional Specification
 - Implementation Plan
 - code/doc iteration
 

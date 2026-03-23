@@ -32,4 +32,4 @@ tags: [studio_framework, project_bridges]
 #studio_framework #project_bridges
 
 ---
-References and bridge material between the Studio Framework and separate project repos.
+This folder defines the bridge material used to move work from Studio preparation into separate project repos and implementation spaces.

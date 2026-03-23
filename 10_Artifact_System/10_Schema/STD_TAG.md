@@ -1,12 +1,12 @@
 ---
 arys_schema_version: "1.2"
 id: "0d2db1c6-ac08-4b2f-afe2-925920908d54"
-title: "STD_TAG — Tag System Starter Standard"
+title: "STD_TAG — Tag System Operating Note"
 type: STANDARD
 status: active
 trust_level: 3
 created: "2026-03-21T18:31:01Z"
-last_modified: "2026-03-21T18:31:01Z"
+last_modified: "2026-03-23T21:42:00Z"
 author: "TARS"
 provenance:
   git_repo: "Studio_Framework"
@@ -17,16 +17,15 @@ provenance:
 tags: [studio_framework, artifact_system, schema, tags, retrieval]
 ---
 
-# STD_TAG — Tag System Starter Standard
+# STD_TAG — Tag System Operating Note
 
-**Version**: 1.0.0 | **Date**: 21.03.2026 | **Time**: 19:31 | **GlobalID**: 20260321_1931_STD_TAG_v1
+**Version**: 0.2.0 | **Date**: 23.03.2026 | **Time**: 22:42 | **GlobalID**: 20260323_2242_STD_TAG_v0
 
-**Last Updated:** 21.03.2026 19:31  
+**Last Updated:** 23.03.2026 22:42  
 **Framework:** Studio_Framework_Artifact_System  
-**Status:** active
+**Status:** beta
 
 **Git:** Repo: Studio_Framework | Branch: main | Path: 10_Artifact_System/10_Schema/STD_TAG.md | Commit: pending
-
 
 **Tag block:**
 #studio_framework #artifact_system #schema #tags #retrieval
@@ -35,78 +34,43 @@ tags: [studio_framework, artifact_system, schema, tags, retrieval]
 
 ## Purpose
 
-Defines the starter tag rules for Studio Framework.
+This file explains how the Studio Framework should use the canonical tag system.
+
+## Canonical sources
+
+The canonical tag system now lives in:
+- `master_tag_system.yml`
+- `TAG_SEMANTIC_INDEX.md`
+
+These two files should be treated as the primary source of truth for:
+- tag inventory
+- tag categories
+- semantic meaning
+- canonical naming
+- topic-to-tag interpretation
 
 ## Core rule
 
-Tags should help retrieval and classification.
-They are not decorative noise.
+When tagging a new document:
+1. compare the document content against the existing canonical tags first
+2. use existing tags wherever they already cover the meaning
+3. only add a new tag when the content is genuinely not covered yet
+4. when adding a new tag, update the semantic documentation as well
 
-## Format
-- lowercase_with_underscores
-- one tag block per document
-- prefer canonical tags over ad hoc synonyms
+## Format rule
 
-## Minimum tagging guidance
-Every governed artifact should usually include tags from at least these categories:
-- artifact type
-- domain or surface
-- workflow/lifecycle stage
+- use lowercase_with_underscores
+- keep one visible tag block near the top
+- use canonical tags, not ad hoc synonyms
+- prefer deterministic validation over inference-only tag assignment
 
-## Starter canonical tags
+## Studio note
 
-### Artifact tags
-- `discovery`
-- `research`
-- `tutorial`
-- `requirements`
-- `specification`
-- `implementation_plan`
-- `checklist`
-- `template`
-- `workflow`
-- `standard`
+Within the Studio Framework, tags are expected to support:
+- retrieval
+- filtering
+- future board/search views
+- deterministic validation tooling
+- cross-artifact traceability
 
-### System tags
-- `studio_framework`
-- `artifact_system`
-- `quality_system`
-- `tool_surfaces`
-- `connectors`
-- `project_bridges`
-- `reference_archive`
-
-### Surface tags
-- `ide`
-- `cad_dcc`
-- `browser_terminal`
-- `acp`
-- `mcp`
-- `openshell`
-
-### Domain tags
-- `software`
-- `usd_dcc`
-- `product_design`
-- `marketing_content`
-
-### Lifecycle tags
-- `schema`
-- `templates`
-- `workflows`
-- `validation`
-- `incubation`
-- `promotion`
-- `archive`
-
-## Quantity guidance
-- short docs: 5–8 tags
-- medium docs: 8–14 tags
-- long/complex docs: 12–18 tags
-- avoid tag spam
-
-## Anti-patterns
-- tags as prose
-- person names as tags without reason
-- giant topic phrases as tags
-- duplicated synonyms when one canonical tag exists
+This file is now an operating note, not a competing miniature tag standard.

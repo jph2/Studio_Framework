@@ -32,4 +32,4 @@ tags: [studio_framework, quality_system]
 #studio_framework #quality_system
 
 ---
-Quality bars, validation checklists, review rules, and artifact standards.
+This folder defines the quality bars, validation checklists, review rules, and artifact standards used to judge work created in `00_Artifacts`.
